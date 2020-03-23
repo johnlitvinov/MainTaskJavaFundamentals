@@ -1,7 +1,6 @@
-import java.io.IOException;
 import java.util.Scanner;
 
-//Задание 5:
+// Задание 5:
 // Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу. Осуществить проверку корректности ввода чисел.
 public class FifthTask {
     public static void main(String [] args) {
@@ -34,10 +33,10 @@ public class FifthTask {
         }if (number == 12) {
             System.out.println("December");
         } else {
-            System.out.println("Not the correct number, check it, please!");
-        }
+            System.out.println("Not the correct number, check it and retry, please!");
         }
     }
+}
 
 
 
